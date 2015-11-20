@@ -13,4 +13,4 @@ operations as below:
 - not(~)
 - and(&)
 - or(|)
-- xor(^)
+- xor(exclusive or)(^)
