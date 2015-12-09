@@ -31,3 +31,5 @@ operations as below:
 > Along with these data types are a set of macros defining the minimum and maximum values for each value of *N*. These have names of the form INT*N*_MIN, INT*N*_MAX, and UINT*N*_MAX.
 
 > Term: one's-complement(fan ma); two's-complement(bu ma)
+
+What we see here is that the effect of casting is to keep the bits value identical, but change how these bits interpreted. Casting from short into unsigned short changed the numberic value, but not the bit representation.
